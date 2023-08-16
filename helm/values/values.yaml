@@ -2,3 +2,4 @@ service:
   type: NodePort
   nodePorts:
     http: 30087
+    cluster: 30086

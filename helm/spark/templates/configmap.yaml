@@ -4,7 +4,6 @@ metadata:
   name: spark-drv-conf-map
 data:
   spark.properties: |
-    spark.kubernetes.driverEnv.SPARK_MASTER_URL=spark\://172.31.36.235\:30086
     spark.app.name=spark-pi
     spark.executor.cores=1
     spark.kubernetes.resource.type=java

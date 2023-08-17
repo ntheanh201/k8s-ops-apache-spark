@@ -5,4 +5,4 @@ service:
     cluster: 30086
 worker:
   coreLimit: 1
-  existingConfigmap: spark-drv-conf-map
+#  existingConfigmap: spark-drv-conf-map

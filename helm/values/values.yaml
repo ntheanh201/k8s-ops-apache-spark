@@ -3,3 +3,5 @@ service:
   nodePorts:
     http: 30087
     cluster: 30086
+worker:
+  coreLimit: 1
